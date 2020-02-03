@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="PAPvolley.SecondPage"
+             Title="Creating Team"
+             BackgroundColor="SlateGray">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Entry Placeholder="Choose your Team name" 
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center"
+                   AbsoluteLayout.LayoutBounds=".5,0.15,290,50"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                   />
+            <Button BackgroundColor="DarkGray"
+                    AbsoluteLayout.LayoutBounds=".3,0.22,170,40"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Text="Create Team"
+                    FontSize="16"
+                    />
+            <Button AbsoluteLayout.LayoutBounds=".74,0.215,50,50"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    BackgroundColor="Transparent"
+                    ImageSource="44650.png"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Scale="0.09"
+                    />
+            <Entry Placeholder="Choose the name of the Player" 
+                   AbsoluteLayout.LayoutBounds=".5,0.42,290,50"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   />
+            <Entry Placeholder="Choose the number of the Player" 
+                   AbsoluteLayout.LayoutBounds=".5,0.5,290,50"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   
+                   />
+            <Button BackgroundColor="DarkGray"
+                    AbsoluteLayout.LayoutBounds=".5,0.58,270,40"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Text="Create Player"
+                    FontSize="16"
+                    />
+            <Button BackgroundColor="DarkGray"
+                    Text="Continue"
+                    AbsoluteLayout.LayoutBounds=".5,0.8,320,80"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    FontSize="16"
+                    />
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

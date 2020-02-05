@@ -16,64 +16,78 @@
             <!-- TOP TEAM-->
             <!-- Front Players-->
             <!-- right-->
-            <Button AbsoluteLayout.LayoutBounds=".72,0.45,60,60"
+            <Button AbsoluteLayout.LayoutBounds=".72,0.45,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                    Text="N#"/>
+                    Text="N#"
+                    BackgroundColor="DarkGray"/>
             <!-- left-->
-            <Button AbsoluteLayout.LayoutBounds=".28,0.45,60,60"
+            <Button AbsoluteLayout.LayoutBounds=".28,0.45,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                    Text="N#"/>
+                    Text="N#"
+                    BackgroundColor="DarkGray"/>
             <!-- middle-->
-            <Button AbsoluteLayout.LayoutBounds=".5,0.45,60,60"
+            <Button AbsoluteLayout.LayoutBounds=".5,0.45,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                    Text="N#"/>
+                    Text="N#"
+                    BackgroundColor="DarkGray"/>
             <!-- Back players-->
             <!-- right-->
             <Button AbsoluteLayout.LayoutBounds=".72,0.3,60,60"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                    Text="N#"/>
+                    Text="N#"
+                    BackgroundColor="DarkGray"/>
             <!-- left-->
             <Button AbsoluteLayout.LayoutBounds=".28,0.3,60,60"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                    Text="N#"/>
+                    Text="N#"
+                    BackgroundColor="DarkGray"/>
             <!-- middle-->
             <Button AbsoluteLayout.LayoutBounds=".5,0.3,60,60"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                    Text="N#"/>
+                    Text="N#"
+                    BackgroundColor="DarkGray"/>
             
             <!-- BOTTOM TEAM-->
             <!-- Front Players-->
             <!-- middle-->
             <Button AbsoluteLayout.LayoutBounds=".5,0.55,60,60"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                    Text="N#"/>
+                    Text="N#"
+                    BackgroundColor="DarkGray"/>
             <!-- right-->
             <Button AbsoluteLayout.LayoutBounds=".72,0.55,60,60"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                    Text="N#"/>
+                    Text="N#"
+                    BackgroundColor="DarkGray"/>
             <!-- left-->
             <Button AbsoluteLayout.LayoutBounds=".28,0.55,60,60"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                    Text="N#"/>
+                    Text="N#"
+                    BackgroundColor="DarkGray"/>
             
             <!-- Back players-->
             <!-- middle-->
             <Button AbsoluteLayout.LayoutBounds=".5,0.7,60,60"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                    Text="N#"/>
+                    Text="N#"
+                    BackgroundColor="DarkGray"/>
             <!-- right-->
             <Button AbsoluteLayout.LayoutBounds=".72,0.7,60,60"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                    Text="N#"/>
+                    Text="N#"
+                    BackgroundColor="DarkGray"/>
             <!-- left-->
             <Button AbsoluteLayout.LayoutBounds=".28,0.7,60,60"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                    Text="N#"/>
+                    Text="N#"
+                    BackgroundColor="DarkGray"/>
 
             <Button AbsoluteLayout.LayoutBounds=".05,0.007,70,70"
-                    AbsoluteLayout.LayoutFlags="PositionProportional"/>
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    BackgroundColor="DarkGray"/>
             <Button AbsoluteLayout.LayoutBounds=".05,0.995,70,70"
-                    AbsoluteLayout.LayoutFlags="PositionProportional"/>
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    BackgroundColor="DarkGray"/>
         </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

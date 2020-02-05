@@ -5799,6 +5799,9 @@ namespace PAPvolley.Droid
 			// aapt resource value: 0x7F070077
 			public const int Vicon = 2131165303;
 			
+			// aapt resource value: 0x7F070078
+			public const int VolleyCourt = 2131165304;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

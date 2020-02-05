@@ -9,7 +9,71 @@
              Title="Game">
     <ContentPage.Content>
         <AbsoluteLayout>
+            <Image Source="VolleyCourt.png"      
+                    AbsoluteLayout.LayoutBounds=".5,0.5,620,660"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"/>
             
+            <!-- TOP TEAM-->
+            <!-- Front Players-->
+            <!-- right-->
+            <Button AbsoluteLayout.LayoutBounds=".72,0.45,60,60"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Text="N#"/>
+            <!-- left-->
+            <Button AbsoluteLayout.LayoutBounds=".28,0.45,60,60"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Text="N#"/>
+            <!-- middle-->
+            <Button AbsoluteLayout.LayoutBounds=".5,0.45,60,60"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Text="N#"/>
+            <!-- Back players-->
+            <!-- right-->
+            <Button AbsoluteLayout.LayoutBounds=".72,0.3,60,60"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Text="N#"/>
+            <!-- left-->
+            <Button AbsoluteLayout.LayoutBounds=".28,0.3,60,60"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Text="N#"/>
+            <!-- middle-->
+            <Button AbsoluteLayout.LayoutBounds=".5,0.3,60,60"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Text="N#"/>
+            
+            <!-- BOTTOM TEAM-->
+            <!-- Front Players-->
+            <!-- middle-->
+            <Button AbsoluteLayout.LayoutBounds=".5,0.55,60,60"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Text="N#"/>
+            <!-- right-->
+            <Button AbsoluteLayout.LayoutBounds=".72,0.55,60,60"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Text="N#"/>
+            <!-- left-->
+            <Button AbsoluteLayout.LayoutBounds=".28,0.55,60,60"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Text="N#"/>
+            
+            <!-- Back players-->
+            <!-- middle-->
+            <Button AbsoluteLayout.LayoutBounds=".5,0.7,60,60"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Text="N#"/>
+            <!-- right-->
+            <Button AbsoluteLayout.LayoutBounds=".72,0.7,60,60"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Text="N#"/>
+            <!-- left-->
+            <Button AbsoluteLayout.LayoutBounds=".28,0.7,60,60"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Text="N#"/>
+
+            <Button AbsoluteLayout.LayoutBounds=".05,0.007,70,70"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <Button AbsoluteLayout.LayoutBounds=".05,0.995,70,70"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"/>
         </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

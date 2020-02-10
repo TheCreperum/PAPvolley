@@ -6,7 +6,8 @@
              mc:Ignorable="d"
              x:Class="PAPvolley.MainPage"
              Title="First Page"
-             BackgroundColor="SlateGray">
+             BackgroundColor="SlateGray"
+             NavigationPage.HasNavigationBar="False">
 
     <AbsoluteLayout>
         <!-- Place new controls here -->

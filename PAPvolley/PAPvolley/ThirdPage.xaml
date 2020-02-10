@@ -13,7 +13,12 @@
             <Image Source="volleycourt.png"      
                     AbsoluteLayout.LayoutBounds=".5,0.5,620,660"
                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
-            
+            <Image Source="ExtCourt.png"
+                   AbsoluteLayout.LayoutBounds=".5,0.0,1000,90"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <Image Source="ExtCourt.png"
+                   AbsoluteLayout.LayoutBounds=".5,0.999,1000,90"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"/>
             <!-- TOP TEAM-->
             <!-- Front Players-->
             <!-- right-->
@@ -83,28 +88,33 @@
                     Text="N#"
                     BackgroundColor="DarkGray"/>
             <!-- top buttons-->
-            <Button AbsoluteLayout.LayoutBounds=".05,0.013,60,60"
+            <Button AbsoluteLayout.LayoutBounds=".05,0.015,60,60"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                    BackgroundColor="DarkGray"/>
-            <Button AbsoluteLayout.LayoutBounds=".28,0.013,60,60"
+                    BackgroundColor="DarkGray"
+                    ImageSource="rotateIcon.png"/>
+            <Button AbsoluteLayout.LayoutBounds=".28,0.015,60,60"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                    BackgroundColor="DarkGray"/>
-            <Button AbsoluteLayout.LayoutBounds=".95,0.013,60,60"
+                    BackgroundColor="DarkGray"
+                    ImageSource="switchplayer.png"/>
+            <Button AbsoluteLayout.LayoutBounds=".95,0.015,60,60"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                    BackgroundColor="DarkGray"/>
+                    BackgroundColor="DarkGray"
+                    ImageSource="inf.png"/>
             <!-- bottom buttons-->
             <Button AbsoluteLayout.LayoutBounds=".05,0.985,60,60"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                    BackgroundColor="DarkGray"/>
+                    BackgroundColor="DarkGray"
+                    ImageSource="rotateIcon.png"/>
             <Button AbsoluteLayout.LayoutBounds=".28,0.985,60,60"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                    BackgroundColor="DarkGray"/>
+                    BackgroundColor="DarkGray"
+                    ImageSource="switchplayer"/>
             <Button AbsoluteLayout.LayoutBounds=".95,0.985,60,60"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     BackgroundColor="DarkGray"
-                    ImageSource="inf.png"
+                    ImageSource="EndGame.png"
                     />
-
+            
         </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -16,5 +16,9 @@ namespace PAPvolley
         {
             InitializeComponent();
         }
+        private async void Onbtn_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ThirdPage());
+        }
     }
 }

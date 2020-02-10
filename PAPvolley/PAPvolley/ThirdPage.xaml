@@ -6,10 +6,11 @@
              mc:Ignorable="d"
              x:Class="PAPvolley.ThirdPage"
              BackgroundColor="SlateGray"
-             Title="Game">
+             Title="Game"
+             NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <AbsoluteLayout>
-            <Image Source="VolleyCourt.png"      
+            <Image Source="volleycourt.png"      
                     AbsoluteLayout.LayoutBounds=".5,0.5,620,660"
                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
             
@@ -101,7 +102,7 @@
             <Button AbsoluteLayout.LayoutBounds=".95,0.985,60,60"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     BackgroundColor="DarkGray"
-                    
+                    ImageSource="inf.png"
                     />
 
         </AbsoluteLayout>

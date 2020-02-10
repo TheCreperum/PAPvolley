@@ -24,7 +24,7 @@
             <Button AbsoluteLayout.LayoutBounds=".74,0.215,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     BackgroundColor="Transparent"
-                    ImageSource="44650.png"
+                    ImageSource="a44650.png"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     Scale="0.09"
@@ -53,6 +53,7 @@
                     AbsoluteLayout.LayoutBounds=".5,0.8,320,80"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     FontSize="16"
+                    Clicked="Onbtn_Clicked"
                     />
         </AbsoluteLayout>
     </ContentPage.Content>

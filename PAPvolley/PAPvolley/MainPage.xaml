@@ -14,21 +14,21 @@
         
         <Button Text="Create Team"
                 TextColor="Black"
-                FontSize="25"
+                FontSize="20"
                 Clicked="Onbtn_Clicked"
                 BackgroundColor="DarkGray"
-                AbsoluteLayout.LayoutBounds=".5,0.85,200,200"
+                AbsoluteLayout.LayoutBounds=".5,0.85,250,50"
                 AbsoluteLayout.LayoutFlags="PositionProportional"/>
         
         <Button Text="Choose Team"
                 TextColor="Black"
-                FontSize="25"
+                FontSize="20"
                 Clicked="Onbtn_Clicked2"
                 BackgroundColor="DarkGray"
-                AbsoluteLayout.LayoutBounds=".5,0.4,200,200"
+                AbsoluteLayout.LayoutBounds=".5,0.7,250,50"
                 AbsoluteLayout.LayoutFlags="PositionProportional"/>
-        <Image Source="Vicon.png"
-               AbsoluteLayout.LayoutBounds=".5,0.1,150,150"
+        <Image Source="logo.png"
+               AbsoluteLayout.LayoutBounds=".5,0.1"
                 AbsoluteLayout.LayoutFlags="PositionProportional"
                />
     </AbsoluteLayout>

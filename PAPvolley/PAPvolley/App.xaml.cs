@@ -11,6 +11,7 @@ namespace PAPvolley
             InitializeComponent();
 
             MainPage = new NavigationPage(new PAPvolley.MainPage());
+            
         }
 
         protected override void OnStart()

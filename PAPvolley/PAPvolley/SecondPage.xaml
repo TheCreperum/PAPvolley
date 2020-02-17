@@ -6,7 +6,8 @@
              mc:Ignorable="d"
              x:Class="PAPvolley.SecondPage"
              Title="Creating Team"
-             BackgroundColor="SlateGray">
+             BackgroundColor="SlateGray"
+             NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <AbsoluteLayout>
             <Entry Placeholder="Choose your Team name" 
@@ -52,7 +53,7 @@
                     Text="Continue"
                     AbsoluteLayout.LayoutBounds=".5,0.8,320,80"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                    FontSize="16"
+                    FontSize="20"
                     Clicked="Onbtn_Clicked"
                     />
         </AbsoluteLayout>

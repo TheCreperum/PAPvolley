@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="PAPvolley.SecondPage"
              Title="Creating Team"
-             BackgroundColor="SlateGray"
+             BackgroundColor="#fdedc9"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <AbsoluteLayout>
@@ -16,19 +16,20 @@
                    AbsoluteLayout.LayoutBounds=".5,0.15,290,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                    />
-            <Button BackgroundColor="DarkGray"
+            <Button BackgroundColor="#c9d9fd"
                     AbsoluteLayout.LayoutBounds=".3,0.22,170,40"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     Text="Create Team"
                     FontSize="16"
+                    CornerRadius="10"
                     />
             <Button AbsoluteLayout.LayoutBounds=".74,0.215,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     BackgroundColor="Transparent"
-                    ImageSource="a44650.png"
+                    ImageSource="Redo.png"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
-                    Scale="0.09"
+                    Clicked="OnRedo_Clicked"
                     />
             <Entry Placeholder="Choose the name of the Player" 
                    AbsoluteLayout.LayoutBounds=".5,0.42,290,50"
@@ -43,18 +44,20 @@
                    AbsoluteLayout.LayoutFlags="PositionProportional"
                    
                    />
-            <Button BackgroundColor="DarkGray"
+            <Button BackgroundColor="#c9d9fd"
                     AbsoluteLayout.LayoutBounds=".5,0.58,270,40"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     Text="Create Player"
                     FontSize="16"
+                    CornerRadius="10"
                     />
-            <Button BackgroundColor="DarkGray"
+            <Button BackgroundColor="#c9d9fd"
                     Text="Continue"
                     AbsoluteLayout.LayoutBounds=".5,0.8,320,80"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     FontSize="20"
                     Clicked="Onbtn_Clicked"
+                    CornerRadius="10"
                     />
         </AbsoluteLayout>
     </ContentPage.Content>

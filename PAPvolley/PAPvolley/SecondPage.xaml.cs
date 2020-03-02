@@ -20,5 +20,9 @@ namespace PAPvolley
         {
             await Navigation.PushAsync(new ThirdPage());
         }
+        private async void OnRedo_Clicked(object sender, EventArgs e)
+        {
+            await DisplayAlert ("Alert", "You're a fag", "OK");
+        }
     }
 }

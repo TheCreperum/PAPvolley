@@ -25,33 +25,40 @@
             <Button AbsoluteLayout.LayoutBounds=".72,0.45,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     Text="N#"
-                    BackgroundColor="#8dadc2"/>
+                    BackgroundColor="#FBF5EB"
+                    CornerRadius="25"/>
             <!-- left-->
             <Button AbsoluteLayout.LayoutBounds=".28,0.45,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     Text="N#"
-                    BackgroundColor="#8dadc2"/>
+                    BackgroundColor="#FBF5EB"
+                    CornerRadius="25"/>
             <!-- middle-->
             <Button AbsoluteLayout.LayoutBounds=".5,0.45,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     Text="N#"
-                    BackgroundColor="#8dadc2"/>
+                    BackgroundColor="#FBF5EB"
+                    CornerRadius="25"/>
             <!-- Back players-->
             <!-- right-->
             <Button AbsoluteLayout.LayoutBounds=".72,0.3,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     Text="N#"
-                    BackgroundColor="#8dadc2"/>
+                    BackgroundColor="#FBF5EB"
+                    CornerRadius="25"
+                    />
             <!-- left-->
             <Button AbsoluteLayout.LayoutBounds=".28,0.3,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     Text="N#"
-                    BackgroundColor="#8dadc2"/>
+                    BackgroundColor="#FBF5EB"
+                    CornerRadius="25"/>
             <!-- middle-->
             <Button AbsoluteLayout.LayoutBounds=".5,0.3,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     Text="N#"
-                    BackgroundColor="#8dadc2"/>
+                    BackgroundColor="#FBF5EB"
+                    CornerRadius="25"/>
             
             <!-- BOTTOM TEAM-->
             <!-- Front Players-->
@@ -59,34 +66,40 @@
             <Button AbsoluteLayout.LayoutBounds=".5,0.55,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     Text="N#"
-                    BackgroundColor="#8dadc2"/>
+                    BackgroundColor="#FBF5EB"
+                    CornerRadius="25"/>
             <!-- right-->
             <Button AbsoluteLayout.LayoutBounds=".72,0.55,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     Text="N#"
-                    BackgroundColor="#8dadc2"/>
+                    BackgroundColor="#FBF5EB"
+                    CornerRadius="25"/>
             <!-- left-->
             <Button AbsoluteLayout.LayoutBounds=".28,0.55,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     Text="N#"
-                    BackgroundColor="#8dadc2"/>
+                    BackgroundColor="#FBF5EB"
+                    CornerRadius="25"/>
             
             <!-- Back players-->
             <!-- middle-->
             <Button AbsoluteLayout.LayoutBounds=".5,0.7,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     Text="N#"
-                    BackgroundColor="#8dadc2"/>
+                    BackgroundColor="#FBF5EB"
+                    CornerRadius="25"/>
             <!-- right-->
             <Button AbsoluteLayout.LayoutBounds=".72,0.7,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     Text="N#"
-                    BackgroundColor="#8dadc2"/>
+                    BackgroundColor="#FBF5EB"
+                    CornerRadius="25"/>
             <!-- left-->
             <Button AbsoluteLayout.LayoutBounds=".28,0.7,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     Text="N#"
-                    BackgroundColor="#8dadc2"/>
+                    BackgroundColor="#FBF5EB"
+                    CornerRadius="25"/>
             <!-- top buttons-->
             <Button AbsoluteLayout.LayoutBounds=".05,0.015,60,60"
                     AbsoluteLayout.LayoutFlags="PositionProportional"

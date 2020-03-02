@@ -19,6 +19,7 @@
                 BackgroundColor="#c9d9fd"
                 AbsoluteLayout.LayoutBounds=".5,0.7,260,50"
                 AbsoluteLayout.LayoutFlags="PositionProportional"
+                CornerRadius="13"
                 />
         
         <Button Text="Choose Team"
@@ -27,7 +28,8 @@
                 Clicked="Onbtn_Clicked2"
                 BackgroundColor="#c9d9fd"
                 AbsoluteLayout.LayoutBounds=".5,0.6,260,50"
-                AbsoluteLayout.LayoutFlags="PositionProportional"/>
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                CornerRadius="13"/>
         
         <Image Source="logo.png"
                Scale="1.2"

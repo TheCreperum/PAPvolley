@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace PAPvolley
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ThirdPage : ContentPage
+    public partial class Page1 : ContentPage
     {
-        public ThirdPage()
+        public Page1()
         {
             InitializeComponent();
-            
-        }
-        private async void Info_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new Page1());
         }
     }
 }

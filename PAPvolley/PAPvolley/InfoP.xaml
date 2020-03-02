@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="PAPvolley.Page1"
+             BackgroundColor="#fdedc9"
+             Title="Info Page">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Button AbsoluteLayout.LayoutBounds=".5,0.1,60,60"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    BackgroundColor="#daedf0"
+                    ImageSource="rotateIcon.png"/>
+            <Label Text="With this button you will be able to make the players rotate" 
+                   AbsoluteLayout.LayoutBounds=".5,0.195,150,80"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   FontSize="16"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center"/>
+            
+            <Button AbsoluteLayout.LayoutBounds=".5,0.4,60,60"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    BackgroundColor="#daedf0"
+                    ImageSource="switchplayer.png"/>
+            <Label Text="With this button you will be able to switch a player"
+                   AbsoluteLayout.LayoutBounds=".5,0.505,150,80"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   FontSize="16"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center"/>
+
+            <Button AbsoluteLayout.LayoutBounds=".5,0.7,60,60"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    BackgroundColor="#daedf0"
+                    ImageSource="EndGame.png"/>
+            <Label Text="With this button you will be able to end the game in case it has finished" 
+                   AbsoluteLayout.LayoutBounds=".5,0.82,150,80"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   FontSize="16"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center"/>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

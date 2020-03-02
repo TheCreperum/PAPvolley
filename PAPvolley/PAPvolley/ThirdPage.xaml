@@ -113,7 +113,8 @@
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     BackgroundColor="#daedf0"
                     ImageSource="inf.png"
-                    Clicked="Info_Clicked"/>
+                    Clicked="Info_Clicked"
+                    />
             <!-- bottom buttons-->
             <Button AbsoluteLayout.LayoutBounds=".05,0.985,60,60"
                     AbsoluteLayout.LayoutFlags="PositionProportional"

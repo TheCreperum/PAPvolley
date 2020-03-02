@@ -25,7 +25,7 @@
                     />
             <Button AbsoluteLayout.LayoutBounds=".74,0.215,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                    BackgroundColor="Transparent"
+                    BackgroundColor="#daedf0"
                     ImageSource="Redo.png"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"

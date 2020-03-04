@@ -6,15 +6,26 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using SQLite;
 
 namespace PAPvolley
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SecondPage : ContentPage
     {
+        TeamDB db;
+        ListView lstData;
+        List<Team> lstSource = new List<Team>();
         public SecondPage()
         {
             InitializeComponent();
+
+            db = new TeamDB();
+            db.createDataBase();
+            string folder = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+
+            
+            
         }
         private async void Onbtn_Clicked(object sender, EventArgs e)
         {

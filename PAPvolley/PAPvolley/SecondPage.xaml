@@ -22,6 +22,7 @@
                     Text="Create Team"
                     FontSize="16"
                     CornerRadius="10"
+                    x:Name="CreateTeam"
                     />
             <Button AbsoluteLayout.LayoutBounds=".74,0.215,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"

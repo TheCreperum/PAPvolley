@@ -4,7 +4,7 @@ using System.Text;
 using SQLite;
 namespace PAPvolley
 {
-    class Team
+    public class Team
     {
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }

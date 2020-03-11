@@ -6,7 +6,7 @@ using SQLite;
 using System.Linq;
 namespace PAPvolley
 {
-    class TeamDB
+    public class TeamDB
     {
         private SQLiteConnection _sqlconnection;
 

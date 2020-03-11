@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using SQLite;
@@ -13,19 +12,19 @@ namespace PAPvolley
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SecondPage : ContentPage
     {
-        TeamDB db;
-        ListView lstData;
-        List<Team> lstSource = new List<Team>();
+        public TeamDB _teamdb;
+        public Team team;
         public SecondPage()
         {
             InitializeComponent();
-
-            db = new TeamDB();
-            db.createDataBase();
-            string folder = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-
-            
-            
+        
+        }
+        public void adddata(object s, EventArgs args)
+        {
+            team = new Team();
+            _teamdb = new TeamDB();
+            team.TeamName = name.Text;
+            _teamdb.AddTeam(team);
         }
         private async void Onbtn_Clicked(object sender, EventArgs e)
         {

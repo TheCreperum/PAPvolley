@@ -15,6 +15,7 @@
                    HorizontalTextAlignment="Center"
                    AbsoluteLayout.LayoutBounds=".5,0.15,290,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
+                   x:Name="name"
                    />
             <Button BackgroundColor="#c9d9fd"
                     AbsoluteLayout.LayoutBounds=".3,0.22,170,40"
@@ -23,6 +24,7 @@
                     FontSize="16"
                     CornerRadius="10"
                     x:Name="CreateTeam"
+                    Clicked="adddata"
                     />
             <Button AbsoluteLayout.LayoutBounds=".74,0.215,50,50"
                     AbsoluteLayout.LayoutFlags="PositionProportional"

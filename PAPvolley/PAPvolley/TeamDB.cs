@@ -1,77 +1,44 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Xamarin.Forms;
 using SQLite;
+using System.Linq;
 namespace PAPvolley
 {
     class TeamDB
     {
-        string folder = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+        private SQLiteConnection _sqlconnection;
 
-        public bool createDataBase()
+        public TeamDB()
         {
-            try
-            {
-                using (var connection = new SQLiteConnection(System.IO.Path.Combine(folder, "Teams.db")))
-                {
-                    connection.CreateTable<Team>();
-                    return true;
-                }
-            }
-            catch (SQLiteException ex)
-            {
-                string error = ex.Message;
-                return false;
-            }
+            //Getting conection and Creating table
+            _sqlconnection = DependencyService.Get<ISQLite>().GetConnection();
+            _sqlconnection.CreateTable<Team>();
         }
-        public bool insertIntoTablePerson(Team teams)
+
+        //Get all students
+        public IEnumerable<Team> GetTeam()
         {
-            try
-            {
-                using (var connection = new SQLiteConnection(System.IO.Path.Combine(folder, "Teams.db")))
-                {
-                    connection.Insert(teams);
-                    return true;
-                }
-            }
-            catch (SQLiteException ex)
-            {
-                string error = ex.Message;
-                return false;
-            }
+            return (from t in _sqlconnection.Table<Team>() select t).ToList();
         }
-        public bool updateTableTeam(Team teams)
+
+        //Get specific student
+        public Team GetTean(int id)
         {
-            try
-            {
-                using (var connection = new SQLiteConnection(System.IO.Path.Combine(folder, "Teams.db")))
-                {
-                    connection.Query<Team>("UPDATE Team set TeamName=?",
-                        teams.TeamName);
-                    return true;
-                }
-            }
-            catch (SQLiteException ex)
-            {
-                string error = ex.Message;
-                return false;
-            }
+            return _sqlconnection.Table<Team>().FirstOrDefault(t => t.Id == id);
         }
-        public bool selectQueryTableTeam(int Id)
+
+        //Delete specific student
+        public void DeleteTeam(int id)
         {
-            try
-            {
-                using (var connection = new SQLiteConnection(System.IO.Path.Combine(folder, "Teams.db")))
-                {
-                    connection.Query<Team>("SELECT * FROM Team Where Id=?", Id);
-                    return true;
-                }
-            }
-            catch (SQLiteException ex)
-            {
-                string error = ex.Message;
-                return false;
-            }
+            _sqlconnection.Delete<Team>(id);
+        }
+
+        //Add new student to DB
+        public void AddTeam(Team team)
+        {
+            _sqlconnection.Insert(team);
         }
     }
 }
